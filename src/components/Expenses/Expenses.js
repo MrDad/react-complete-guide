@@ -4,6 +4,11 @@ import "./Expenses.css";
 
 const Expenses = (props) => {
     //let expenses={props.expenses};
+    // let i = 0;
+    // for (i in props.items) {
+    //     console.log(props.items[i]);
+    // };
+    
     return (
         <Card className="expenses">
             <ExpenseItem
